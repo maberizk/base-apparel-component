@@ -8,13 +8,7 @@ body {
   display: flex;
   width: 100wv;
   height: 100vh;
-  /* flex-wrap: wrap; */
 }
-
-/* .item {
-  flex-grow: 1;
-  flex-basis: 100;
-} */
 
 .women-img {
   height: 100%;
@@ -46,3 +40,32 @@ section {
   padding-top: 20px;
   padding-bottom: 36px;
 }
+
+input {
+  padding: 16px;
+  width: 50%;
+  border-radius: 30px;
+  padding-left: 24px;
+  border: 1px solid hsl(0, 36%, 70%);
+  color: hsl(0, 36%, 70%);
+  opacity: 60%;
+}
+
+input::placeholder {
+  color: hsl(0, 36%, 70%);
+}
+
+button {
+  padding: 12px;
+  padding-right: 36px;
+  padding-left: 36px;
+  background: linear-gradient(138deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+  border: none;
+  color: white;
+  border-radius: 30px;
+  position: relative;
+  right: 65px;
+  top: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
