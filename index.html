@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
 
     <link
       rel="icon"
@@ -18,6 +17,7 @@
       href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap"
       rel="stylesheet"
     />
+    <script src="index.js" defer></script>
     <title>Frontend Mentor | Base Apparel coming soon page</title>
   </head>
   <body>
@@ -37,10 +37,11 @@
           launch deals.
         </p>
       </section>
-      <form>
-
+      <form onsubmit="validateForm()">
         <input type="email" name="email" placeholder="Email Address" />
-        <button class="arrow" type="submit"><img src="./images/icon-arrow.svg" alt="arrow"></button>
+        <button class="arrow" type="submit">
+          <img src="./images/icon-arrow.svg" alt="arrow" />
+        </button>
       </form>
     </div>
   </body>
