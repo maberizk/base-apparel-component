@@ -53,6 +53,7 @@ input {
   border: 1px solid hsl(0, 36%, 70%);
   color: hsl(0, 36%, 70%);
   opacity: 60%;
+  background-color: transparent;
 }
 
 input::placeholder {
@@ -94,12 +95,38 @@ button {
     width: 100%;
   }
 
+  form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30%;
+  }
   input {
-    width: 65%;
+    width: 225px;
+    margin-left: 30px;
+  }
+
+  button {
+    right: 40px;
+    top: 0px;
   }
 
   .logo {
     margin: 16px;
     padding-left: 30px;
+  }
+
+  h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+  p {
+    margin: 32px;
+    font-size: 14px;
+  }
+
+  section {
+    padding: 0;
   }
 }
