@@ -25,6 +25,8 @@ Your users should be able to:
   - The email address is not formatted correctly
 
 <p align="center">
-<img src="/images/Screenshot 2023-10-10 at 12.41.29 PM.png">
+Desktop
 <img src="/images/Screenshot 2023-10-10 at 12.41.44 PM.png">
+Mobile
+<img src="/images/Screenshot 2023-10-10 at 12.41.29 PM.png">
 </p>
