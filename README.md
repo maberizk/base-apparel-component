@@ -26,7 +26,10 @@ Your users should be able to:
 
 <p align="center">
 Desktop
+<br>
 <img src="/images/Screenshot 2023-10-10 at 12.41.44 PM.png">
+<br>
 Mobile
+<br>
 <img src="/images/Screenshot 2023-10-10 at 12.41.29 PM.png">
 </p>
