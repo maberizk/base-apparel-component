@@ -23,3 +23,8 @@ Your users should be able to:
 - Receive an error message when the `form` is submitted if:
   - The `input` field is empty
   - The email address is not formatted correctly
+
+<p align="center">
+<img src="/images/Screenshot 2023-10-10 at 12.41.29 PM.png">
+<img src="/images/Screenshot 2023-10-10 at 12.41.44 PM.png">
+</p>
