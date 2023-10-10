@@ -37,8 +37,9 @@
           launch deals.
         </p>
       </section>
-      <form onsubmit="validateForm()">
-        <input type="email" name="email" placeholder="Email Address" />
+      <div id="error"></div>
+      <form onsubmit="validateForm()" action="/" method="GET">
+        <input type="email" name="email" placeholder="Email Address" required/>
         <button class="arrow" type="submit">
           <img src="./images/icon-arrow.svg" alt="arrow" />
         </button>

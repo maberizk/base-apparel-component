@@ -24,6 +24,8 @@ Your users should be able to:
   - The `input` field is empty
   - The email address is not formatted correctly
 
+I learned, to satisfy the error messages... all you need to do is add required in the input line. 
+
 <p align="center">
 Desktop
 <br>
